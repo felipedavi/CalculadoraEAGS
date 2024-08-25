@@ -1,4 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="pt">
+    <!-- MainActivity -->
     <string name="app_name">Calculadora EAGS</string>
 
     <!-- MainFragment -->
