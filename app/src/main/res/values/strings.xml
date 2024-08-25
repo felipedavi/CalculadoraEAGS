@@ -7,4 +7,11 @@
     <string name="des_edit_especificas">Informe o n.º de acertos em específicas</string>
     <string name="edit_error">Campo necessário</string>
     <string name="button_save">Salvar</string>
+
+    <!-- ResultFragment -->
+    <string name="result_fragment">Resultado</string>
+    <string name="result_classified">Média: %1$.4f</string>
+    <string name="result_disqualified">Desclassificado</string>
+    <string name="result_pt">Média de Português: %1$.4f</string>
+    <string name="result_esp">Média das Específicas: %1$.4f</string>
 </resources>
