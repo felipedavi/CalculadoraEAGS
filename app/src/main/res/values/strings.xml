@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Calculadora EAGS</string>
+
+    <!-- MainFragment -->
+    <string name="main_fragment">Cálculo Média EAGS</string>
+    <string name="des_edit_portugues">Informe o n.º de acertos em português</string>
+    <string name="des_edit_especificas">Informe o n.º de acertos em específicas</string>
+    <string name="edit_error">Campo necessário</string>
+    <string name="button_save">Salvar</string>
 </resources>
