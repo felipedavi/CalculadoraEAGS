@@ -11,7 +11,7 @@ android {
         applicationId = "io.github.felipedavi.eags_calculator"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
+        versionCode = 5
         versionName = "1.0"
     }
 
