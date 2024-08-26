@@ -8,11 +8,28 @@
     <fragment
         android:id="@+id/mainFragment"
         android:name="io.github.felipedavi.eags_calculator.MainFragment"
-        android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
+        android:label="@string/main_fragment"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/navigateToResultFragment"
+            app:destination="@id/resultFragment"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="false" />
+    </fragment>
+
     <fragment
         android:id="@+id/resultFragment"
         android:name="io.github.felipedavi.eags_calculator.ResultFragment"
-        android:label="fragment_result"
-        tools:layout="@layout/fragment_result" />
+        android:label="@string/result_fragment"
+        tools:layout="@layout/fragment_result" >
+        <argument
+            android:name="pt"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="esp"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
 </navigation>
