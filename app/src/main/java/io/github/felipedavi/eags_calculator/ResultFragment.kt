@@ -35,8 +35,10 @@ class ResultFragment : Fragment() {
         val mp = (p.toDouble().div(40))*10
         val me = (e.toDouble()/60)*10
         val m = (mp+(me*2))/3
-                
-        binding.textResult.text = String.format(if (m>=5)
+
+        val isClassified = mp > 5 && me > 5
+
+        binding.textResult.text = String.format(if (isClassified)
             getString(R.string.result_classified, m)
         else getString(R.string.result_disqualified))
 
